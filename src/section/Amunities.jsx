@@ -2,7 +2,7 @@ import { useState } from 'react';
 import heroImg1 from '../assets/images/swimming.jpg';
 import heroImg2 from '../assets/images/Gazebo.png';
 import heroImg3 from '../assets/images/ClubHouse.jpg';
-import heroImg4 from '../assets/images/jogging.png';
+import heroImg4 from '../assets/images/Jogging.png';
 import heroImg5 from '../assets/images/Kidsplay.png';
 import heroImg6 from '../assets/images/GYM.png';
 import heroImg8 from '../assets/images/Temple.jpg';
