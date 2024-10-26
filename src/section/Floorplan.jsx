@@ -1,6 +1,4 @@
 
-
-
 import React, { useState } from 'react';
 import floor1 from '../assets/images/31.png';
 import floor2 from '../assets/images/38.png';
@@ -101,12 +99,12 @@ const Service = () => {
                 style={{ boxShadow: '0 0 20px rgba(206,183,128,255)' }}
                 src={typeImages[activeTab]}
                 alt={`Blueprint for ${activeTab}`}
-                className="w-full h-[390px] object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
 
             {/* Descriptive Section */}
-            <div className="p-6 border border-[#a27133] rounded-lg text-white shadow-lg">
+            <div className="p-[45px] border border-[#a27133] rounded-lg text-white shadow-lg">
               <h2 className="text-3xl font-semibold mb-4 text-white">
                 {activeTab}
               </h2>
