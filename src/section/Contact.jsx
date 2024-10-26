@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useDarkMode } from '../component/DarkModeContext';
-import { handleNewContactsData } from '../DatabaseConfig';
+import { handleNewContactsData } from '../Databaseconfig';
 // Import relevant icons from react-icons
 import { FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
 
